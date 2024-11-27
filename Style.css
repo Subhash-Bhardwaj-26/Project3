@@ -1,0 +1,93 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.landingpage{
+height: 100vh;
+width: 100vw;
+background-image: url(bgfinal.jpg);
+background-size: 100% 100%;
+
+}
+.main{
+  height:100vh;
+  width: 100vw;
+position: absolute;
+width: 100%;
+min-height: 100vh; 
+background: linear-gradient(
+  to bottom, 
+  rgba(18, 18, 56, 1), 
+  rgb(1, 13, 58), 
+  rgb(0, 0, 0) );
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.center_logo{
+  width: 80vw;
+  height: 50vw;
+padding-top: 600px;
+  padding-left: 280px;
+}
+
+  
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  font-family:sans-serif;
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right, rgba(43, 41, 41, 0.527), rgba(0, 0, 0, 0.3));
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+  
+}
+
+/* Logo Section */
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+/* Navigation Menu */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu li a {
+  text-decoration: solid;
+    color: #fff;
+   font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #feca57; /* Gold color on hover */
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #feca57; /* Gold color on hover */
+}
